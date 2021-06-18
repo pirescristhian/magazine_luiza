@@ -1,0 +1,60 @@
+import 'package:magazine_luiza/model/item.dart';
+
+List<Item> listItems = [
+  Item(
+    photo: "assets/images/celular.jpg",
+    name: "Smartphone Samsung Galaxy A71 128GB Azul 6GB RAM",
+    description: "Tela 6.7\" Câm. Quádrupla Câm. + Selfie 32MP",
+    price: "R\$ 1.979,97",
+    parcel: "10x de R\$ 212,90 sem juros",
+    favorite: true,
+  ),
+  Item(
+    photo: "assets/images/geladeira.jpg",
+    name: "Geladeira Brastemp Frost Free Duplex Evox",
+    description: "375L BRM45 HKANA",
+    price: "R\$ 2.698,00",
+    parcel: "10x de R\$ 269,80 sem juros",
+    favorite: false,
+  ),
+  Item(
+    photo: "assets/images/fritadeira.jpg",
+    name: "Fritadeira Elétrica sem Óleo/Air Fryer Nell Smart",
+    description: "Preta 2,4L com Timer",
+    price: "R\$ 229,90",
+    parcel: "5x de R\$ 45,98 sem juros",
+    favorite: false,
+  ),
+  Item(
+    photo: "assets/images/computador.jpg",
+    name: "PC Gamer Neologic Start NLI81426 Ryzen 3 2200G 8GB",
+    description: "Radeon Vega 8 Integrado + SSD 240GB",
+    price: "R\$ 4.859,00",
+    parcel: "12x de R\$ 404,92 sem juros",
+    favorite: true,
+  ),
+  Item(
+    photo: "assets/images/microfone.jpg",
+    name: "Microfone de Mesa Condensador",
+    description: "Redshock",
+    price: "R\$ 99,90",
+    parcel: "3x de R\$ 33,30 sem juros",
+    favorite: false,
+  ),
+  Item(
+    photo: "assets/images/ventilador.jpg",
+    name: "Ventilador de Parede e Mesa Mondial Maxi Power",
+    description: "NV-15-6P-FB 30cm 3 Velocidades",
+    price: "R\$ 89,90",
+    parcel: "2x de R\$ 44,95 sem juros",
+    favorite: true,
+  ),
+  Item(
+    photo: "assets/images/drone.jpg",
+    name: "Drone Multilaser Eagle FPV",
+    description: "Câmera HD Flips 360",
+    price: "R\$ 1.979,97",
+    parcel: "10x de R\$ 212,90 sem juros",
+    favorite: false,
+  ),
+];
